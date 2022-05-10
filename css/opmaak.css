@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
-  background-color: lightblue;
+  background-color: #1E1F1F;
 }
 
-h1 {
-  color: yellow;
+p, ul, li {
+  font-family: 'VT323', monospace;
+  color: #4CA952;
+}
+#banner {
+  text-align: center;
+}
+
+#logo {
+ width: 100px;
+ height: 100px;
+ bottom: 20px;
+ right: 20px;
+ position: absolute;
+ position: fixed;
+}
+
+#active {
+  color: #d13db1;
 }
