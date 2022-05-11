@@ -4,12 +4,16 @@ body {
   background-color: #1E1F1F;
 }
 
+html {
+  border-style: dashed;
+  border-color: #4CA952;
+  height: 96%;
+  margin: 10px;
+}
+
 p, ul, li {
   font-family: 'VT323', monospace;
   color: #4CA952;
-}
-#banner {
-  text-align: center;
 }
 
 #logo {
