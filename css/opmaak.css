@@ -2,18 +2,31 @@
 
 body {
   background-color: #1E1F1F;
+  padding: 0;
 }
 
 html {
-  border-style: dashed;
-  border-color: #4CA952;
-  height: 96%;
-  margin: 10px;
-}
+  border-style: ridge;
+  border-color: lightgrey;
+  border-width: 5px;
+  height: 98.5%;
+  margin: 0%;
+  padding: 0;
+  }
 
 p, ul, li {
   font-family: 'VT323', monospace;
   color: #4CA952;
+}
+
+#windowname {
+  background-color: #4444b3;
+  color: lightgrey;
+  border-style: ridge;
+  border-color: lightgrey;
+  border-width: 5px;
+  margin: 0%;
+  padding: 5px;
 }
 
 #logo {
