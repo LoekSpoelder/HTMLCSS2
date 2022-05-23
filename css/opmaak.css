@@ -50,6 +50,8 @@ table {
 	border-spacing: 0;
 }
 
+/*CSS makeup begins here*/
+
 html {
   border-style: ridge;
   border-color: lightgrey;
@@ -59,11 +61,26 @@ html {
   padding: 0;
   }
 
-p, ul, li {
+p, ul, li, table {
   font-family: 'VT323', monospace;
   color: #4CA952;
   margin-left: 10px;
   line-height: 20px;
+}
+
+input[type=text] {
+	background-color: #1E1F1F;
+	border-color: #1E1F1F;
+	border-style: none;
+	outline: none;
+	font-family: 'VT323', monospace;
+	color: #4CA952;
+	margin-left: 10px;
+	width: 98%;
+}
+
+input[type=text]:focus {
+   border: 3px solid #1E1F1F;
 }
 
 #windowname {
