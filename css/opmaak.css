@@ -75,12 +75,21 @@ input[type=text] {
 	outline: none;
 	font-family: 'VT323', monospace;
 	color: #4CA952;
-	margin-left: 10px;
-	width: 98%;
+	width: 80%;
 }
 
 input[type=text]:focus {
    border: 3px solid #1E1F1F;
+}
+
+button {
+	background-color: #1E1F1F;
+	border-color: #1E1F1F;
+	border-style: none;
+	outline: none;
+	font-family: 'VT323', monospace;
+	color: #4CA952;
+	margin-left: 10px;
 }
 
 #windowname {
@@ -101,10 +110,6 @@ input[type=text]:focus {
  right: 20px;
  position: absolute;
  position: fixed;
-}
-
-#active {
-  color: #d13db1;
 }
 
 #button3 {
