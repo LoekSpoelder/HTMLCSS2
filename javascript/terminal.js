@@ -10,13 +10,13 @@ input.addEventListener("keypress", function(event) {
 });
 
 function terminal() {
-  if (input = "hallo") {
-    output.innerHTML = "hoi";
+  if (input = "hoi") {
+    output.innerHTML = "Kapot";
   }
-  else if (input = something) {
-    feedback.innerHTML = "Het getal is lager.";
+  else if (input = "werk") {
+    output.innerHTML = "HET WERKT";
   }
   else {
-    feedback.innerHTML = "Je hebt het getal geraden! Je hebt " + teller + " keer moeten raden.";
+    output.innerHTML = "ja typ iets in man";
   }
 }
